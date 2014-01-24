@@ -29,6 +29,43 @@ CVSAnalY has the following dependencies:
 * Python MySQLDB (optional, but recommended)
 
 
+
+## Requirements (Mac OS X)
+-------------
+CVSAnalY has the following dependencies (tested in Mac OS X 10.9.1 x86_64):
+
+* XCode. Folow the instructions [given] [a] 
+* MacPorts. Follow the instructions [given] [b] 
+* Homebrew. Follow the instructions [given] [c]
+
+After the installation open your terminal and type : 
+
+For CVS support :
+
+	$ brew install cvs
+
+For Subversion support :
+
+	$ brew install svn
+	
+For Git support :
+
+	$ brew install git
+	
+	
+
+* MySQL (mysql-server). Follow the official [MySQL Documentation] [d]
+* python-mysqldb. Follow the instruction given in the [Stackoverflow thread] [e] 
+
+
+[a]: https://developer.apple.com/xcode/
+[b]: http://guide.macports.org/#installing
+[c]: http://brew.sh/
+[d]: http://dev.mysql.com/doc/mysql-macosx-excerpt/5.5/en/
+[e]: http://stackoverflow.com/questions/1448429/how-to-install-mysqldb-python-data-access-library-to-mysql-on-mac-os-x
+
+
+
 ## Scripts
 
 Some useful scripts for performing reseach studies (activity,
