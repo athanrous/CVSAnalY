@@ -31,7 +31,7 @@ CVSAnalY has the following dependencies:
 
 
 ## Requirements (Mac OS X)
--------------
+
 CVSAnalY has the following dependencies (tested in Mac OS X 10.9.1 x86_64):
 
 * XCode. Folow the instructions [given] [a] 
